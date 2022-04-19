@@ -1,0 +1,37 @@
+body{
+    background-color: darkgray;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/2 2/4;
+    text-align: center;
+}
+ul{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-column: 1/2 2/3;
+}
+li{
+    grid-column: 3/4 4/5 ;
+}
+section{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article{
+    background-color: rgb(128, 128, 238);
+    grid-column: 1/2;
+    text-align: center;
+}
+aside{
+    background-color: aqua;
+    grid-column: 3/5;
+    text-align: center;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+}
