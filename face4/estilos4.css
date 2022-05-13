@@ -1,0 +1,16 @@
+body{
+    background-color: burlywood;
+}
+header{
+    background-color: rgb(119, 206, 206);
+}
+nav{
+    background-color: rgb(149, 130, 252);
+    text-align: center;
+}
+article{
+    background-color: rgb(17, 57, 141);
+}
+section{
+    background-color: rgb(73, 105, 248);
+}
